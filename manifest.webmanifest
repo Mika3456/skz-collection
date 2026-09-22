@@ -1,1 +1,29 @@
-{"name": "SKZ Scene Vault", "short_name": "SKZ Vault", "start_url": "./", "display": "standalone", "background_color": "#0d0f13", "theme_color": "#0d0f13"}
+{
+  "id": "/skz-collection/",
+  "name": "SKZ Collection",
+  "short_name": "SKZ Collection",
+  "description": "Personal SKZ scene and collection manager.",
+  "start_url": "/skz-collection/",
+  "scope": "/skz-collection/",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "background_color": "#0d0f13",
+  "theme_color": "#0d0f13",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
